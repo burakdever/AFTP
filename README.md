@@ -47,17 +47,17 @@ Aşağıdaki algoritmalar temel parametrelerle test edilmiştir:
 
 | Model               | Test R² Skoru |
 |--------------------|---------------|
-| **Ridge Regression** | **0.85**        |
-| Linear Regression  | 0.83          |
-| Lasso Regression   | 0.79          |
-| Decision Tree      | 0.72          |
+| **Ridge Regression** | **0.869**        |
+| Linear Regression  | 0.869          |
+| Lasso Regression   | 0.869          |
+| Decision Tree      | 0.776          |
 
 > 🏆 En iyi performansı Ridge Regression göstermiştir.
 
 ### 🎯 Ridge Regression - Hiperparametre Optimizasyonu
 
 - `GridSearchCV` ile `alpha` parametresi 7 farklı değer için test edilmiştir.
-- En iyi alpha: `1`
+- En iyi alpha: `0.01`
 
 ---
 
