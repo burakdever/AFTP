@@ -45,12 +45,12 @@ Aşağıdaki algoritmalar temel parametrelerle test edilmiştir:
 
 ## 📊 Model Performansları
 
-| Model               | Test R² Skoru | Test RMSE |
-|--------------------|---------------|-----------|
-| **Ridge Regression** | **0.85**        | --        |
-| Linear Regression  | 0.83          | --        |
-| Lasso Regression   | 0.79          | --        |
-| Decision Tree      | 0.72          | --        |
+| Model               | Test R² Skoru |
+|--------------------|---------------|
+| **Ridge Regression** | **0.85**        |
+| Linear Regression  | 0.83          |
+| Lasso Regression   | 0.79          |
+| Decision Tree      | 0.72          |
 
 > 🏆 En iyi performansı Ridge Regression göstermiştir.
 
